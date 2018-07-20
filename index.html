@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+
+<body>
+    <h1>BULMA</h1>
+
+    <h2>Les nav</h2>
+
+    <!-- Main container -->
+    <h3>Une nav avec positionnement droite et gauche</h3>
+    <nav class="level">
+        <!-- nav class="level"1 -->
+        <!-- Left side -->
+        <div class="level-left">
+            <div class="level-item">
+                <p class="subtitle is-5">
+                    <strong>level-item left</strong> posts
+                </p>
+            </div>
+            <div class="level-item">
+                <div class="field has-addons">
+                    <p class="control">
+                        <input class="input" type="text" placeholder="Find a post">
+                    </p>
+                    <p class="control">
+                        <button class="button">Search</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Left side -->
+
+        <!-- Right side -->
+        <div class="level-right">
+            <p class="level-item"><strong>All</strong></p>
+            <p class="level-item"><a>Published</a></p>
+            <p class="level-item"><a>Drafts</a></p>
+            <p class="level-item"><a>Deleted</a></p>
+            <p class="level-item"><a class="button is-success">New</a></p>
+        </div>
+        <!-- Right side -->
+    </nav>
+    <!-- nav class="level" 1-->
+
+
+
+    <!-- nav class="level"2 -->
+    <h3>Une nav centrée</h3>
+    <nav class="level">
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Tweets</p>
+                <p class="title">3,456</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Following</p>
+                <p class="title">123</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Followers</p>
+                <p class="title">456K</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Likes</p>
+                <p class="title">789</p>
+            </div>
+        </div>
+    </nav>
+    <!-- nav class="level"2 -->
+
+
+    <!-- nav class="level"3 -->
+    <h3>Une autre nav centrée</h3>
+    <nav class="level">
+        <p class="level-item has-text-centered">
+            <a class="link is-info">Home</a>
+        </p>
+        <p class="level-item has-text-centered">
+            <a class="link is-info">Menu</a>
+        </p>
+        <p class="level-item has-text-centered">
+            <img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;">
+        </p>
+        <p class="level-item has-text-centered">
+            <a class="link is-info">Reservations</a>
+        </p>
+        <p class="level-item has-text-centered">
+            <a class="link is-info">Contact</a>
+        </p>
+    </nav>
+    <!-- nav class="level"3 -->
+
+    <!-- nav class="level"4 -->
+    <h3>Une nav mobile centrée</h3>
+    <nav class="level is-mobile">
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Tweets</p>
+                <p class="title">3,456</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Following</p>
+                <p class="title">123</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Followers</p>
+                <p class="title">456K</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+                <p class="heading">Likes</p>
+                <p class="title">789</p>
+            </div>
+        </div>
+    </nav>
+    <!-- nav class="level"4 -->
+
+    <h2>Les media Object</h2>
+    <h3>Les media Object simple</h3>
+    <article class="media">
+        <figure class="media-left">
+            <p class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/128x128.png">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <p>
+                    <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                </p>
+            </div>
+            <nav class="level is-mobile">
+                <div class="level-left">
+                    <a class="level-item">
+          <span class="icon is-small"><i class="fas fa-reply"></i></span>
+        </a>
+                    <a class="level-item">
+          <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+        </a>
+                    <a class="level-item">
+          <span class="icon is-small"><i class="fas fa-heart"></i></span>
+        </a>
+                </div>
+            </nav>
+        </div>
+        <div class="media-right">
+            <button class="delete"></button>
+        </div>
+    </article>
+    <!-- <article class="media"> -->
+
+    <!-- <article class="media" nested> -->
+    <h3>Media object nested</h3>
+    <article class="media">
+        <figure class="media-left">
+            <p class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/128x128.png">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <p>
+                    <strong>Barbara Middleton</strong>
+                    <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non. Suspendisse pellentesque mauris sit amet dolor blandit rutrum. Nunc in tempus turpis.
+                    <br>
+                    <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
+                </p>
+            </div>
+
+            <article class="media">
+                <figure class="media-left">
+                    <p class="image is-48x48">
+                        <img src="https://bulma.io/images/placeholders/96x96.png">
+                    </p>
+                </figure>
+                <div class="media-content">
+                    <div class="content">
+                        <p>
+                            <strong>Sean Brown</strong>
+                            <br> Donec sollicitudin urna eget eros malesuada sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam blandit nisl a nulla sagittis, a lobortis leo feugiat.
+                            <br>
+                            <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+                        </p>
+                    </div>
+
+                    <article class="media">
+                        Vivamus quis semper metus, non tincidunt dolor. Vivamus in mi eu lorem cursus ullamcorper sit amet nec massa.
+                    </article>
+
+                    <article class="media">
+                        Morbi vitae diam et purus tincidunt porttitor vel vitae augue. Praesent malesuada metus sed pharetra euismod. Cras tellus odio, tincidunt iaculis diam non, porta aliquet tortor.
+                    </article>
+                </div>
+            </article>
+
+            <article class="media">
+                <figure class="media-left">
+                    <p class="image is-48x48">
+                        <img src="https://bulma.io/images/placeholders/96x96.png">
+                    </p>
+                </figure>
+                <div class="media-content">
+                    <div class="content">
+                        <p>
+                            <strong>Kayli Eunice </strong>
+                            <br> Sed convallis scelerisque mauris, non pulvinar nunc mattis vel. Maecenas varius felis sit amet magna vestibulum euismod malesuada cursus libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                            cubilia Curae; Phasellus lacinia non nisl id feugiat.
+                            <br>
+                            <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </article>
+    <article class="media">
+        <figure class="media-left">
+            <p class="image is-64x64">
+                <img src="https://bulma.io/images/placeholders/128x128.png">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="field">
+                <p class="control">
+                    <textarea class="textarea" placeholder="Add a comment..."></textarea>
+                </p>
+            </div>
+            <div class="field">
+                <p class="control">
+                    <button class="button">Post comment</button>
+                </p>
+            </div>
+        </div>
+    </article>
+    <!-- <article class="media" nested> -->
+
+
+    <div class="container">
+        <h3 class="title">Un container centré</h3>
+        <div class="notification">
+            <h3 class="title">Classe notification </h3> This container is <strong>centered</strong> on desktop.
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="title">Hello World</h3>
+        <p class="subtitle">
+            My first website with <strong>Bulma</strong>!
+        </p>
+    </div>
+
+    <div class="container">
+        <h3 class="title">Classes columns</h3>
+        <div class="columns">
+            <div class="column has-background-primary">column 1 has-background-primary</div>
+            <div class="column has-background-primary">column 2 has-background-primary</div>
+            <div class="column has-background-primary">column 3 has-background-primary</div>
+            <div class="column has-background-primary">column 4 has-background-primary</div>
+            <div class="column has-background-primary">column 5 has-background-primary</div>
+        </div>
+    </div>
+    <!-- container -->
+
+    <div class="container is-fluid">
+        <h3>Container fluid </h3>
+        <div class="notification">
+            This container is <strong>fluid</strong>: it will have a 32px gap on either side, on any viewport size.
+        </div>
+    </div>
+    <!-- container is-fluid -->
+</body>
+
+</html>
+<!-- <script src="node_modules/bootstrap/dist/js/bootstrap.js" crossorigin="anonymous"></script> -->
+<!-- <script src="node_modules/jquery/dist/jquery.min.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
